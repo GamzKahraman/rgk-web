@@ -25,17 +25,17 @@ export const Navbar = () => {
      />
      <div className="hidden lg:flex flex-col-reverse xl:flex-row xl:items-center xl:justify-between">
       <div className=" lg:block text-white">
-       <a className="scrol-smooth" href="section1">
+       <a className="scrol-smooth" href="section2">
         <label className="mx-2 xl:mx-2 text-[15px] xl:text-[16px] 2xl:text-[18px] inline-block hover:scale-[1.07] delay-100 duration-300">
          ABOUT
         </label>
        </a>
-       <a className="scrol-smooth" href="section2">
+       <a className="scrol-smooth" href="section3">
         <label className="mx-2 xl:mx-2 text-[15px] xl:text-[16px] 2xl:text-[18px] inline-block hover:scale-[1.07] delay-100 duration-300">
          COMMUNİCATİON
         </label>
        </a>
-       <a className="scrol-smooth" href="section3">
+       <a className="scrol-smooth" href="section4">
         <label className="mx-2 xl:mx-2 text-[15px] xl:text-[16px] 2xl:text-[18px] inline-block hover:scale-[1.07] delay-100 duration-300">
          ACCOUNTS
         </label>
