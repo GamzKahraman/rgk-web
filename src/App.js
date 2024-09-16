@@ -5,10 +5,9 @@ import { Section1 } from './components/Section1';
 
 function App() {
  return (
-  <div className="App">
-   <Navbar/>
-   Gamze
-   <Section1/>
+  <div>
+   <Navbar />
+   <Section1 />
   </div>
  );
 }
