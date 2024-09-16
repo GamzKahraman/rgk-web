@@ -12,8 +12,8 @@ export const Navbar = () => {
  };
 
  return (
-  <div className="right-0 left-0 top-0 fixed">
-   <div className="top-0 sticky backdrop-blur-sm z-[100] h-[100px] w-full flex items-center justify-center font-bold border-solid border-b-2 border-white">
+  <div className="right-0 left-0 top-0 ">
+   <div className="top-0 sticky z-[100] h-[100px] w-full flex items-center justify-center font-bold border-solid border-b-2 border-white">
     <div className="h-full w-[80vw] flex items-center justify-between xl:justify-between">
      <img
       src={logo}
@@ -24,7 +24,7 @@ export const Navbar = () => {
       className="w-[120px] md:w-[180px] delay-100 duration-300 "
      />
      <div className="hidden lg:flex flex-col-reverse xl:flex-row xl:items-center xl:justify-between">
-      <div className=" lg:block text-white">
+      <div className=" lg:block ">
        <a className="scrol-smooth" href="section2">
         <label className="mx-2 xl:mx-2 text-[15px] xl:text-[16px] 2xl:text-[18px] inline-block hover:scale-[1.07] delay-100 duration-300">
          ABOUT
@@ -55,23 +55,23 @@ export const Navbar = () => {
         className=" h-screen w-screen bg-[#191970]/90 backdrop-blur lg:hidden"
         onClick={() => setIsNavOpen(false)}
        >
-        <div className="flex h-screen flex-col items-center justify-center text-xl text-white">
+        <div className="flex h-screen flex-col items-center justify-center text-xl ">
          <>
           <a
            href="#section1"
-           className="p-7  drop-shadow-xl duration-200 hover:text-white/100 border-b-2 scroll-smooth"
+           className="p-7  drop-shadow-xl duration-200 hover:/100 border-b-2 scroll-smooth"
           >
            ABOUT
           </a>
           <a
            href="#section2"
-           className="p-7  drop-shadow-xl duration-200 hover:text-white/100 border-b-2 scroll-smooth"
+           className="p-7  drop-shadow-xl duration-200 hover:/100 border-b-2 scroll-smooth"
           >
            COMMUNİCATİON
           </a>
           <a
            href="#section3"
-           className="p-7  drop-shadow-xl duration-200 hover:text-white/100 border-b-2 scroll-smooth"
+           className="p-7  drop-shadow-xl duration-200 hover:/100 border-b-2 scroll-smooth"
           >
            ACCOUNTS
           </a>
