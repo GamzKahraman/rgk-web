@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/RGK.jpg";
+
 
 export const Navbar = () => {
  const [isNavOpen, setIsNavOpen] = useState(false);
@@ -52,25 +53,25 @@ export const Navbar = () => {
      <div className="absolute  top-0 right-0 ">
       {isNavOpen === true ? (
        <div
-        className=" h-screen w-screen bg-[#191970]/90 backdrop-blur lg:hidden"
+        className=" h-screen w-screen bg-[#AEF359]/90 backdrop-blur lg:hidden"
         onClick={() => setIsNavOpen(false)}
        >
         <div className="flex h-screen flex-col items-center justify-center text-xl ">
          <>
           <a
-           href="#section1"
+           href="#section2"
            className="p-7  drop-shadow-xl duration-200 hover:/100 border-b-2 scroll-smooth"
           >
            ABOUT
           </a>
           <a
-           href="#section2"
+           href="#section3"
            className="p-7  drop-shadow-xl duration-200 hover:/100 border-b-2 scroll-smooth"
           >
            COMMUNİCATİON
           </a>
           <a
-           href="#section3"
+           href="#section4"
            className="p-7  drop-shadow-xl duration-200 hover:/100 border-b-2 scroll-smooth"
           >
            ACCOUNTS
