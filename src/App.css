@@ -9,6 +9,22 @@
   }
 
   .first-section-background {  
-    background-color: #728C69;  
+    background-color: #162837;  
 
+}
+
+html {
+  scroll-snap-type: y mandatory;
+  font-family: 'FontBold', sans-serif;
+
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: center;
+  box-sizing: border-box;
 }
