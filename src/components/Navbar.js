@@ -15,7 +15,7 @@ export const Navbar = () => {
 
  return (
   <div className="fixed  right-0 left-0 top-0 ">
-   <div className="bg-white top-0 sticky z-[100] h-[100px] w-full flex items-center justify-center font-bold border-solid border-b-2 border-white">
+   <div className="bg-white/50 top-0 sticky z-[100] h-[100px] w-full flex items-center justify-center font-bold border-solid border-b-2 border-white">
     <div className="h-full w-[80vw] flex items-center justify-between xl:justify-between">
      {/* <img
       src={logo}
@@ -31,17 +31,17 @@ export const Navbar = () => {
       <div className=" lg:block ">
        <a className="scrol-smooth" href="#section2">
         <label className="mx-2 xl:mx-3 text-[15px] xl:text-[16px] 2xl:text-[18px] inline-block hover:scale-[1.07] delay-100 duration-300">
-         ABOUT
+         ABOUT ME
         </label>
        </a>
        <a className="scrol-smooth" href="#section3">
         <label className="mx-2 xl:mx-2 text-[15px] xl:text-[16px] 2xl:text-[18px] inline-block hover:scale-[1.07] delay-100 duration-300">
-         COMMUNİCATİON
+         MY WRİTİNGS AND POEMS
         </label>
        </a>
        <a className="scrol-smooth" href="#section4">
         <label className="mx-2 xl:mx-2 text-[15px] xl:text-[16px] 2xl:text-[18px] inline-block hover:scale-[1.07] delay-100 duration-300">
-         ACCOUNTS
+        BLA BLA BLA
         </label>
        </a>
       </div>
@@ -53,7 +53,7 @@ export const Navbar = () => {
       </div>
      </div>
 
-{/* Mobil ekran şçşn açılan menu */}
+{/* Mobil ekran için açılan menu */}
      <div className="absolute  top-0 right-0 ">
       {isNavOpen === true ? (
        <div
@@ -66,19 +66,19 @@ export const Navbar = () => {
            href="#section2"
            className="p-7  drop-shadow-xl duration-200 hover:/100 border-b-2 scroll-smooth"
           >
-           ABOUT
+           ABOUT ME
           </a>
           <a
            href="#section3"
            className="p-7  drop-shadow-xl duration-200 hover:/100 border-b-2 scroll-smooth"
           >
-           COMMUNİCATİON
+          MY WRİTİNGS AND POEMS
           </a>
           <a
            href="#section4"
            className="p-7  drop-shadow-xl duration-200 hover:/100 border-b-2 scroll-smooth"
           >
-           ACCOUNTS
+          BLA BLA BLA
           </a>
          </>
         </div>
