@@ -9,7 +9,7 @@ export const Section2 = () => {
             {/* Arka Plan */}
             <div className="w-full h-[100px] bg-[#06141B]"></div>
             <div className="w-full h-[90vh] flex flex-col  justify-start sm:justify-center mx-4">
-                <div className="flex items-center h-[15vh] justify-center ">
+            <div className="flex items-center h-[15vh] justify-center ">
                     {/* Metinlerin Css Özellikleri */}
                     <label className="text-center text-white bg-[#06141B] shadow-2xl font-extrabold text-[3vh] sm:text-[3.5vh] lg:text-[4.3vh] h-fit xl:mb-5 px-2">{`About Me`}</label>
                 </div>
@@ -25,40 +25,5 @@ export const Section2 = () => {
             </div>
         </section>
     )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
