@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "../assets/RGK.jpg";
 import menu from "../assets/menu.svg"
 
 
@@ -41,7 +40,7 @@ export const Navbar = () => {
        </a>
        <a className="scrol-smooth" href="#section4">
         <label className="mx-2 xl:mx-2 text-[15px] xl:text-[16px] 2xl:text-[18px] inline-block hover:scale-[1.07] delay-100 duration-300">
-        BLA BLA BLA
+        TECHNOLOGIES I USE
         </label>
        </a>
       </div>
@@ -57,7 +56,7 @@ export const Navbar = () => {
      <div className="absolute  top-0 right-0 ">
       {isNavOpen === true ? (
        <div
-        className=" h-screen w-screen bg-[#06141B]/90 backdrop-blur lg:hidden"
+        className=" h-screen w-screen bg-[#06141B]]/90 backdrop-blur lg:hidden"
         onClick={() => setIsNavOpen(false)}
        >
         <div className="flex h-screen flex-col items-center justify-center text-xl ">
@@ -78,7 +77,7 @@ export const Navbar = () => {
            href="#section4"
            className="p-7  drop-shadow-xl duration-200 hover:/100 border-b-2 scroll-smooth"
           >
-          BLA BLA BLA
+        TECHNOLOGIES I USE
           </a>
          </>
         </div>
