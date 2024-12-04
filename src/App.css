@@ -9,7 +9,7 @@
   }
 
   .first-section-background {  
-    background-color: #162837;  
+    background-color: #06141B;  
 
 }
 
@@ -29,9 +29,8 @@ section {
   box-sizing: border-box;
 }
 
-.third-section-background{
-  background-image: url("./assets/backgroundSVG.svg");
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
+.tech-icon {  
+  width: 50px;   /* İkonların genişliği */  
+  height: 50px;  /* İkonların yüksekliği */  
+  margin: 0 10px; /* İkonlar arasında yatay boşluk bırakır */  
 }
