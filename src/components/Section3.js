@@ -1,4 +1,3 @@
-
 import React from "react";
 
 
@@ -14,7 +13,7 @@ export const Section3 = () => {
             <div className="flex flex-col items-center h-full justify-center">
                 {/*Metinlerin CSS Özellikleri*/}
                 <label className="text-center text-white bg-[#06141B] shadow-2xl font-extrabold text-[3vh] sm:text-[3.5vh] lg:text-[4.3vh] h-fit xl:mb-5 px-2" >
-                    {`My Writings and Poems`}
+                    {`MY WRİTİNG and POEMS`}
                     </label>
 
                     <div className="flex flex-col md:flex-row md:justify-around">
@@ -28,10 +27,6 @@ export const Section3 = () => {
             </div>
         </section>
     )
-
-
-
-
 
 
 }
