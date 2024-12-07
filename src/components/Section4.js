@@ -1,5 +1,8 @@
 import React from "react";  
 import reactjs_logo from "../assets/react.svg"
+import css_logo from "../assets/css.svg"
+import html_logo from "../assets/html.svg"
+import javascript_logo from "../assets/javascript.svg"
 
 export const Section4 = () => {  
     const labelClass =  
@@ -23,9 +26,9 @@ export const Section4 = () => {
                     {/* Teknolojilerin İkonları */}  
                     <div className="flex flex-col md:flex-row md:justify-around mt-4">  
                         <img src={reactjs_logo} alt="React" className="tech-icon" />  
-                        <img src="https://techicons.com/html-icon" alt="HTML" className="tech-icon" />  
-                        <img src="https://techicons.com/css-icon" alt="CSS" className="tech-icon" />  
-                        <img src="https://techicons.com/javascript-icon" alt="JavaScript" className="tech-icon" />  
+                        <img src={css_logo} alt="CSS" className="tech-icon" />  
+                        <img src={html_logo} alt="HTML" className="tech-icon" />  
+                        <img src={javascript_logo} alt="JavaScript" className="tech-icon" />  
                     </div>  
                 </div>  
             </div>  
