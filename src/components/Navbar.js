@@ -35,7 +35,7 @@ export const Navbar = () => {
        </a>
        <a className="scrol-smooth" href="#section3">
         <label className="mx-2 xl:mx-2 text-[15px] xl:text-[16px] 2xl:text-[18px] inline-block hover:scale-[1.07] delay-100 duration-300">
-         MY WRİTİNGS AND POEMS
+         MY EXPRERİENCES
         </label>
        </a>
        <a className="scrol-smooth" href="#section4">
@@ -71,7 +71,7 @@ export const Navbar = () => {
            href="#section3"
            className="p-7  drop-shadow-xl duration-200 hover:/100 border-b-2 scroll-smooth"
           >
-          MY WRİTİNGS AND POEMS
+          MY EXPRERİENCES
           </a>
           <a
            href="#section4"
