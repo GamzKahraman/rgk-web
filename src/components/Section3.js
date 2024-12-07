@@ -13,7 +13,7 @@ export const Section3 = () => {
             <div className="flex flex-col items-center h-full justify-center">
                 {/*Metinlerin CSS Özellikleri*/}
                 <label className="text-center text-white bg-[#06141B] shadow-2xl font-extrabold text-[3vh] sm:text-[3.5vh] lg:text-[4.3vh] h-fit xl:mb-5 px-2" >
-                    {`MY WRİTİNG and POEMS`}
+                    {`MY EXPRERİENCES`}
                     </label>
 
                     <div className="flex flex-col md:flex-row md:justify-around">
