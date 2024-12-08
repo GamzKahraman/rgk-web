@@ -1,5 +1,5 @@
 .backdrop-blur {  
-    background-color: #9AB8BA; 
+    background-color: #B6410F; 
     backdrop-filter: blur(10px);  
     z-index: 10;   
   }  
@@ -9,10 +9,9 @@
   }
 
   .first-section-background {  
-    background-color: #06141B;  
+    background-color: #12372A;  
 
 }
-   
 
 html {
   scroll-snap-type: y mandatory;
