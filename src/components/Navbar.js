@@ -43,6 +43,7 @@ export const Navbar = () => {
         TECHNOLOGIES I USE
         </label>
        </a>
+      
       </div>
      </div>
      {/* Mobile ekran için menu iconu */}
