@@ -1,5 +1,5 @@
 .backdrop-blur {  
-    background-color: #B6410F; 
+    background-color: #ffffff; 
     backdrop-filter: blur(10px);  
     z-index: 10;   
   }  
@@ -9,7 +9,7 @@
   }
 
   .first-section-background {  
-    background-color: #12372A;  
+    background-color: #000000;  
 
 }
 
