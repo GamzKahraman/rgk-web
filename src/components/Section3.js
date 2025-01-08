@@ -7,7 +7,7 @@ export const Section3 = () => {
         "text-justify my-2 mx-2 text-[1.5vh] sm:text-[2vh] md:w-[40vw] xl:text-[2.5vh] p-4 text-center max-w-[600px] mx-auto bg-[#ADBC9F]";
 
     return (
-        <section className="bg-[#12372A] text-white flex flex-col" id="section3">
+        <section className="bg-[#000000] text-white flex flex-col" id="section3">
             {/*Arka Plan*/}
             <div classsName="w-full h-[100px] bg-[#12372A]"></div>
             <div className="w-full h-[90vh] flex flex-col justify-start sm:justify-center mx-4">
@@ -16,7 +16,7 @@ export const Section3 = () => {
 
 
                     {/*Metinlerin CSS Özellikleri*/}
-                    <label className="text-center text-white bg-[#ADBC9F] shadow-2xl font-extrabold text-[3vh] sm:text-[3.5vh] lg:text-[4.3vh] h-fit xl:mb-5 px-2" >
+                    <label className="text-center text-white shadow-2xl font-extrabold text-[3vh] sm:text-[3.5vh] lg:text-[4.3vh] h-fit xl:mb-5 px-2" >
                         {'MY EXPRERİENCES'}
                     </label>
 
