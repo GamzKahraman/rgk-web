@@ -9,13 +9,13 @@ export const Section4 = () => {
         "text-justify my-2 mx-2 text-[1.5vh] sm:text-[2vh] md:w-[40vw] xl:text-[2.5vh] p-2 text-center";  
 
     return (  
-        <section className=" bg-[#12372A] text-white flex flex-col" id="section4">  
+        <section className=" bg-[#000000] text-white flex flex-col" id="section4">  
             {/* Arka Plan */}  
-            <div className="w-full h-[100px] bg-[#12372A]"></div>  
+            <div className="w-full h-[100px] bg-[#000000]"></div>  
             <div className="w-full h-[90vh] flex flex-col justify-start sm:justify-center mx-4">  
                 <div className="flex flex-col items-center h-full justify-center">  
                     {/* Metinlerin CSS Özellikleri */}  
-                    <label className="text-center text-white bg-[#ADBC9F] shadow-2xl font-extrabold text-[3vh] sm:text-[3.5vh] lg:text-[4.3vh] h-fit xl:mb-5 px-2">  
+                    <label className="text-center text-white shadow-2xl font-extrabold text-[3vh] sm:text-[3.5vh] lg:text-[4.3vh] h-fit xl:mb-5 px-2">  
                         {`TECHNOLOGIES I USE`}  
                     </label>  
 
