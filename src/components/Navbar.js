@@ -24,25 +24,26 @@ export const Navbar = () => {
       }}
       className="w-[130px] md:w-[200px] hover:scale-[1.1] delay-100 duration-300 "
      /> */}
-     <h1 className="text-[#B6410F]">Gamze</h1>
+     <h1 className="text-[#ffffff]">Gamze</h1>
      {/* Büyük ekran navgasyonlar */}
      <div className=" hidden lg:flex flex-col-reverse xl:flex-row xl:items-center xl:justify-between">
       <div className=" lg:block ">
        <a className="scrol-smooth" href="#section2">
-        <label className="mx-2 xl:mx-3 text-[#B6410F] text-[15px] xl:text-[16px] 2xl:text-[18px] inline-block hover:scale-[1.07] delay-100 duration-300">
+        <label className="mx-2 xl:mx-3 text-[#ffffff] text-[15px] xl:text-[16px] 2xl:text-[18px] inline-block hover:scale-[1.07] delay-100 duration-300">
          ABOUT ME
         </label>
        </a>
        <a className="scrol-smooth" href="#section3">
-        <label className="mx-2 xl:mx-2 text-[#B6410F] text-[15px] xl:text-[16px] 2xl:text-[18px] inline-block hover:scale-[1.07] delay-100 duration-300">
+        <label className="mx-2 xl:mx-2 text-[#ffffff] text-[15px] xl:text-[16px] 2xl:text-[18px] inline-block hover:scale-[1.07] delay-100 duration-300">
          MY EXPRERİENCES
         </label>
        </a>
        <a className="scrol-smooth" href="#section4">
-        <label className="mx-2 xl:mx-2 text-[#B6410F] text-[15px] xl:text-[16px] 2xl:text-[18px] inline-block hover:scale-[1.07] delay-100 duration-300">
+        <label className="mx-2 xl:mx-2 text-[#ffffff] text-[15px] xl:text-[16px] 2xl:text-[18px] inline-block hover:scale-[1.07] delay-100 duration-300">
         TECHNOLOGIES I USE
         </label>
        </a>
+    
       
       </div>
      </div>
@@ -57,7 +58,7 @@ export const Navbar = () => {
      <div className="absolute  top-0 right-0 ">
       {isNavOpen === true ? (
        <div
-        className=" h-screen w-screen bg-[#B6410F]/90 backdrop-blur lg:hidden"
+        className=" h-screen w-screen bg-[#000]/90 backdrop-blur lg:hidden"
         onClick={() => setIsNavOpen(false)}
        >
         <div className="text-[#ADBC9F] flex h-screen flex-col items-center justify-center text-xl ">
