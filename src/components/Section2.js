@@ -5,7 +5,7 @@ import React from "react";
 export const Section2 = () => {
 
     const labelClass =
-        "text-justify my-2 mx-2 text-[1.5vh] sm:text-[2vh] md:w-[40vw] xl:text-[2.5vh] p-4 text-center max-w-[600px] mx-auto bg-[#ADBC9F]";
+        "text-justify my-2 mx-2 text-[1.5vh] sm:text-[2vh] md:w-[40vw] xl:text-[2.5vh] p-4 text-center max-w-[600px] mx-auto";
 
     return (
         <section className="bg-[#000000] text-white flex flex-col" id="section2">
@@ -18,16 +18,10 @@ export const Section2 = () => {
                         {`ABOUT ME`}
                     </label>
 
-                    <div className="flex flex-col md:flex-row md:justify-around">
+                    <div className="flex flex-col md:flex-row md:justify-end md:items-start">
                         <label className={labelClass}>
-                            Hello, I am Gamze, I am a 3rd year high school student.
-                            From the time I started high school, I decided that I was
-                            a versatile person, because I like to gain knowledge by doing
-                            research on all kinds of fields. One of these areas was web
-                            software. After my teacher noticed me after the 10-week training
-                            I received through the private teaching institution of the city
-                            I live in, I entered the Capsule technology platform voluntarily
-                            to improve myself, and I am still learning new things here as a volunteer.
+                            Hello, I am Gamze, a 3rd year high school student. From the moment I started high school, I decided that I was a versatile person because I have an adventurous personality that likes to research and gain knowledge in various fields. At the same time, I stand out with my talents such as public speaking, managing a group and organizing a plan and project. Naturally, I have a busy life. Some of the various branches that are in my area of ​​interest are: Cinematography, Web Software, Photography, Philosophy, Theater, Politics, Literature... etc. While I take professional steps for some of these fields, I continue to keep some of them in my life as a hobby that I like to research or do.
+                            I can say that the fields that I am constantly working on and trying to become professional are literature, photography, software and politics.
 
                         </label>
                     </div>

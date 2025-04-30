@@ -1,5 +1,5 @@
 .backdrop-blur {  
-    background-color: #ffffff; 
+    background-color: #7e7a7a; 
     backdrop-filter: blur(10px);  
     z-index: 10;   
   }  

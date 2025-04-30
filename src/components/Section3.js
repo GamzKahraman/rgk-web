@@ -4,7 +4,7 @@ import kapsulImage from "../assets/kapsul.png";
 
 export const Section3 = () => {
     const labelClass =
-        "text-justify my-2 mx-2 text-[1.5vh] sm:text-[2vh] md:w-[40vw] xl:text-[2.5vh] p-4 text-center max-w-[600px] mx-auto bg-[#ADBC9F]";
+        "text-justify my-2 mx-2 text-[1.5vh] sm:text-[2vh] md:w-[40vw] xl:text-[2.5vh] p-4 text-center max-w-[600px] mx-auto";
 
     return (
         <section className="bg-[#000000] text-white flex flex-col" id="section3">
@@ -27,21 +27,13 @@ export const Section3 = () => {
                             <img
                                 src={kapsulImage}
                                 alt="Kapsül Resmi"
-                                className="w-[50px] h-auto mr-4"
+                                className="w-[100px] h-auto mr-3"
 
                             />
 
 
                             <label className={labelClass}>
-                                Hello, I am Gamze, I am a 3rd year high school student.
-                                Since I started high school, I have decided that I am a
-                                versatile person because I like to gain knowledge by
-                                doing research in all kinds of fields. One of these areas
-                                was web software. After my 10-week training on web software,
-                                which I received through the private teaching institution
-                                of the city I live in, my instructor noticed me and I voluntarily
-                                entered the Capsule technology platform to improve myself, and
-                                I am still learning new things here as a volunteer.
+                                One of the areas that caught the attention of my versatile personality was web software. After the 10-week web training I received through the private tutoring center in the city I lived in, my teacher noticed my interest and suggested that I work voluntarily on the Capsule Technology platform to improve myself. I accepted this offer and joined the Capsule Technology Platform. I am currently volunteering here to improve myself in the frontend department and learning new things from the software developers on the staff.
 
                             </label>
                         </div>
